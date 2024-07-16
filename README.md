@@ -1,4 +1,4 @@
-# CoinMania in React Vİte
+# CoinMania in React Vite
 
 ## Description
 
