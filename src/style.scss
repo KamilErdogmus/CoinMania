@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: rgba(255, 255, 255, 0.7);
+  background-color: #252525;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+//* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #252525;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #394554;
+  border-radius: 10px;
+  border: 3px solid #252525;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #536f93;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #3f3f3f;
+}
+
+::-webkit-scrollbar-corner {
+  background: #252525;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  .h-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  h3 {
+    letter-spacing: 4px;
+  }
+  img {
+    width: 75px;
+  }
+  .buttons {
+    display: flex;
+    gap: 10px;
+    a {
+      background-color: gold;
+      color: rgba(0, 0, 0, 0.877);
+      border-radius: 10px;
+      padding: 10px;
+    }
+    .active {
+      box-shadow: 2px 2px 22px gold;
+    }
+  }
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 44px;
+  div {
+    position: relative;
+    input {
+      width: 100%;
+      border: 1px solid gray;
+      border-radius: 10px;
+      outline: none;
+      color: white;
+      padding: 10px;
+      background: none;
+      &:focus {
+        box-shadow: 2px 2px 2px rgb(66, 66, 66);
+      }
+    }
+    span {
+      position: absolute;
+      left: 0;
+      bottom: -33px;
+      color: #ca0000;
+    }
+  }
+  button {
+    border-radius: 10px;
+    background-color: #1d1d1d;
+    padding: 10px;
+    transition: 0.5s ease-out;
+    color: #516d91;
+    border: 0;
+    text-transform: uppercase;
+    &:disabled {
+      opacity: 0.31;
+      cursor: not-allowed !important;
+    }
+    &:hover {
+      background-color: #3f3f3f;
+    }
+  }
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  img {
+    width: 80px;
+  }
+  h1 {
+    letter-spacing: 2px;
+    color: #fff;
+  }
+}
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px 40px;
+}
+.cardd {
+  margin: 10px;
+  transition: 0.3s;
+  &:hover {
+    box-shadow: 0 0 20px rgb(144, 144, 144);
+  }
+}
+th {
+  text-align: center;
+}
+.LoadMore {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: linear 0.3s;
+  justify-content: center;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: #e0e8ef;
+  border-color: rgba(255, 255, 255, 3);
+  box-shadow: -4px -2px 16px #fff;
+  color: #394554;
+  &:hover {
+    background-color: #e5edf5;
+    box-shadow: -2px -1px 8px #fff;
+    scale: 1.1;
+    border-color: #536f93;
+  }
+  &:active {
+    box-shadow: none;
+  }
+}
