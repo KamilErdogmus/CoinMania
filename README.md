@@ -2,7 +2,7 @@
 
 ## Description
 
-CoinMania is a comprehensive web application developed with React and powered by Vite, tailored for cryptocurrency enthusiasts and traders. It provides robust product management capabilities alongside real-time data visualization from the CoinCap API. The application offers an intuitive user interface built with Bootstrap, ensuring responsiveness across devices. Form validation is handled seamlessly using Formik and Yup, enhancing data integrity. Charts powered by react-chart-js offer dynamic insights into cryptocurrency trends. CoinMania leverages Redux Toolkit for efficient state management, ensuring a smooth user experience. With its extensive library integrations including react-icons for visual enhancements, numeral for number formatting, and millify for readable number conversion, CoinMania stands out as a versatile tool for both novice learners and experienced traders in the cryptocurrency space.
+CoinMania is a web application developed with React and Vite, tailored for cryptocurrency enthusiasts and traders. It combines robust product management with real-time data visualization from the CoinCap API. The application features an intuitive Bootstrap-based interface, seamless form validation with Formik and Yup, and dynamic cryptocurrency charts powered by react-chart-js. With integrations like react-icons for visual enhancements and numeral for number formatting, CoinMania caters to both beginners and experienced traders in the cryptocurrency market.
 
 ## Features
 
@@ -15,7 +15,6 @@ CoinMania is a comprehensive web application developed with React and powered by
 
 ## Libraries
 
-- **@reduxjs/toolkit**: Redux Toolkit for efficient Redux state management.
 - **axios**: Promise-based HTTP client for the browser and Node.js.
 - **uuid**: Library for generating unique identifiers.
 - **react-router-dom**: Declarative routing for React applications.
