@@ -39,7 +39,7 @@ The project utilizes the CoinCap API for fetching real-time cryptocurrency data.
 
 ## Deployment
 
-The project is deployed and can be accessed [here](). For the project to run smoothly, please follow the installation steps below to set it up locally.The project may behave differently across different browsers.
+The project is deployed and can be accessed [here](https://chimerical-swan-91a6b2.netlify.app/). For the project to run smoothly, please follow the installation steps below to set it up locally.The project may behave differently across different browsers.
 
 ## Installation
 
@@ -48,7 +48,7 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone
+git clone https://github.com/KamilErdogmus/CoinMania.git
 ```
 
 2. Navigate to the project directory:
