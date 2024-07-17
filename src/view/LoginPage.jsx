@@ -26,7 +26,7 @@ const LoginPage = () => {
     <div>
       <div className="container">
         <div className="logo">
-          <img src="../../public/c-logo.png" alt="" />
+          <img src="c-logo.png" alt="" />
           <h1>CoinMania</h1>
         </div>
 
